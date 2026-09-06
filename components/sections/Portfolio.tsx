@@ -1,42 +1,12 @@
 'use client';
 
 const videos = [
-  {
-    id: 'mD-aQyYeX4c',
-    start: 0,
-    title: 'Proyecto 1',
-    description: 'Una pieza audiovisual para presentar una idea, una mirada y una historia.',
-  },
-  {
-    id: 'wM011v8DYKw',
-    start: 1,
-    title: 'Proyecto 2',
-    description: 'Narrativa visual pensada para conectar con nuevas audiencias.',
-  },
-  {
-    id: 'iGPAtFiVHfg',
-    start: 4,
-    title: 'Campaña X',
-    description: 'Contenido audiovisual que transforma un mensaje en experiencia.',
-  },
-  {
-    id: '_kqPjOwlWbY',
-    start: 17,
-    title: 'Relato de marca',
-    description: 'Una historia que da forma, tono y personalidad a un proyecto.',
-  },
-  {
-    id: 'nSUYNQTKc3I',
-    start: 1,
-    title: 'Pieza editorial',
-    description: 'Una propuesta de contenido para comunicar con claridad y carácter.',
-  },
-  {
-    id: 'pleyFnQRSWs',
-    start: 2,
-    title: 'Historia en movimiento',
-    description: 'Imágenes y palabras que acompañan una nueva etapa.',
-  },
+  { id: 'mD-aQyYeX4c', start: 0 },
+  { id: 'wM011v8DYKw', start: 1 },
+  { id: 'iGPAtFiVHfg', start: 4 },
+  { id: '_kqPjOwlWbY', start: 17 },
+  { id: 'nSUYNQTKc3I', start: 1 },
+  { id: 'pleyFnQRSWs', start: 2 },
 ];
 
 export default function Portfolio() {
@@ -61,23 +31,12 @@ export default function Portfolio() {
               <div className="relative aspect-video w-full overflow-hidden bg-muted">
                 <iframe
                   src={`https://www.youtube-nocookie.com/embed/${video.id}?start=${video.start}&rel=0`}
-                  title={video.title}
+                  title={`Video ${i + 1}`}
                   loading="lazy"
                   className="absolute inset-0 h-full w-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 />
-              </div>
-              <div className="p-6 md:p-7">
-                <p className="mb-2 text-xs font-medium uppercase tracking-[0.2em] text-accent">
-                  Video {String(i + 1).padStart(2, '0')}
-                </p>
-                <h3 className="font-serif text-xl text-primary md:text-2xl">
-                  {video.title}
-                </h3>
-                <p className="mt-3 text-sm leading-relaxed text-muted-foreground text-pretty">
-                  {video.description}
-                </p>
               </div>
             </article>
           ))}
