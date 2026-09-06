@@ -54,7 +54,7 @@ export default function Header() {
           aria-label="Aconcawa — Inicio"
         >
           <Image
-            src="/aconcawa-logo.svg"
+            src="/Gemini_Generated_Image_ucke2wucke2wucke.png"
             alt="Logo de Aconcawa"
             width={40}
             height={40}

@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
-  <title id="title">Logo Aconcawa</title>
-  <desc id="desc">Símbolo circular formado por tres formas en tonos naranja, gris y marfil.</desc>
-  <circle cx="128" cy="128" r="108" fill="#f7f5ef" stroke="#050505" stroke-width="7"/>
-  <path d="M21 147c-6-43 10-86 42-111l29 40-25 67 65-4 34 45-83 12-5 31c-30-18-51-46-57-80Z" fill="#dd7741" stroke="#050505" stroke-width="7" stroke-linejoin="miter"/>
-  <path d="M63 36c31-23 72-29 109-15 36 14 63 44 72 82l-30 13-40-56-25 47-65 4 25-67Z" fill="#929292" stroke="#050505" stroke-width="7" stroke-linejoin="miter"/>
-  <path d="m144 111 25-47 40 56 35-14c2 41-15 80-47 105l-58-85c7-5 8-10 5-15Z" fill="#f7f5ef" stroke="#050505" stroke-width="7" stroke-linejoin="miter"/>
-  <circle cx="128" cy="128" r="29" fill="#fff" stroke="#050505" stroke-width="7"/>
-</svg>
