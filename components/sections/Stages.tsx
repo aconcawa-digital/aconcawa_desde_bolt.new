@@ -40,8 +40,8 @@ export default function Stages() {
             Etapas
           </h2>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground text-pretty">
-            Un acompañamiento que avanza en cuatro movimientos — del silencio a
-            la voz, y de la voz al relevo permanente.
+            Un proceso claro y acompañado, desarrollado en cuatro fases para
+            convertir tus ideas en relatos con sentido.
           </p>
         </div>
 

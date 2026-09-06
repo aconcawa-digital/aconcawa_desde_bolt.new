@@ -10,6 +10,7 @@ const navItems = [
   { label: 'Principios', href: '#principios' },
   { label: 'Etapas', href: '#etapas' },
   { label: 'Portafolio', href: '#portafolio' },
+  { label: 'Contacto', href: '#contacto' }
 ];
 
 export default function Header() {
@@ -53,8 +54,8 @@ export default function Header() {
           aria-label="Aconcawa — Inicio"
         >
           <Image
-            src="/Gemini_Generated_Image_7hybyg7hybyg7hyb.png"
-            alt=""
+            src="/aconcawa-logo.svg"
+            alt="Logo de Aconcawa"
             width={40}
             height={40}
             className="h-9 w-9 object-contain"
